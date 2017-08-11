@@ -79,7 +79,6 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                             <img src="uploads/profiles/{{auth('client')->user()->photo}}" class="img-circle" alt=""
                                  style="width: 40px;height: 40px;">&nbsp;&nbsp;
-
                             {{auth('client')->user()->username}} <span class="caret"></span>
                         </a>
 
